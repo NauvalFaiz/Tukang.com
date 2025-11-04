@@ -1,0 +1,51 @@
+name: Tukang
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  amicons: ^1.0.1
+  blurrycontainer: ^2.1.0
+  flutter_bloc: ^9.1.1
+  get_it: ^9.0.5
+  http: ^1.5.0
+  shared_preferences: ^2.5.3
+  google_maps_flutter: ^2.13.1
+  flutter_rating_bar: ^4.0.1
+  fluttertoast: ^9.0.0
+  go_router: ^16.3.0
+  google_fonts: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  icons_launcher: ^3.0.3  # Anda menggunakan 'icons_launcher', tapi biasanya pakai 'flutter_launcher_icons'
+
+# ⚠️ Perhatikan: package yang umum digunakan adalah flutter_launcher_icons, bukan icons_launcher
+# Jika Anda memang bermaksud pakai `icons_launcher`, pastikan dokumentasinya sesuai.
+# Namun, kebanyakan developer menggunakan:
+# dev_dependencies:
+#   flutter_launcher_icons: ^x.x.x
+
+# Konfigurasi launcher icon HARUS di level root, BUKAN di dalam dev_dependencies
+icons_launcher:
+  image_path: "assets/img/logoTukang.png"
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/logo.png
+    - assets/img/logoTukang.png
