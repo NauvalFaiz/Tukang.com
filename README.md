@@ -26,3 +26,52 @@ Aplikasi ini dikembangkan dengan tampilan modern, integrasi API, serta sistem pe
 ---
 
 ## 🧩 Struktur Folder
+lib/
+├── app.dart
+├── main.dart
+├── core/
+│ ├── constants/
+│ ├── models/
+│ ├── services/
+│ └── utils/
+├── data/
+│ ├── repositories/
+│ └── datasources/
+├── features/
+│ ├── home/
+│ ├── order/
+│ ├── profile/
+│ └── maps/
+├── routes/
+└── widgets/
+
+
+
+---
+
+## 🧠 Teknologi yang Digunakan
+| Komponen | Teknologi |
+|-----------|------------|
+| Frontend | Flutter (Dart) |
+| Backend | Laravel |
+| Database | MySQL (XAMPP) |
+| API Dummy | Ktor / PokeAPI |
+| State Management | GetX / Provider (bisa disesuaikan) |
+
+---
+
+## ⚙️ Instalasi & Jalankan Proyek
+1. Clone repositori:
+   ```bash
+   git clone https://github.com/<username>/tukang_app.git
+
+---
+
+## 💡 Tips Tambahan
+- Tambahkan **screenshots** hasil run di folder `/assets/screenshots/`.
+- Jika sudah ada backend Laravel, kamu bisa buat folder `/backend/` di repo untuk menyimpan kodenya.
+- Tambahkan badge di atas README seperti:
+  ```markdown
+  ![Flutter](https://img.shields.io/badge/Flutter-3.24-blue)
+  ![License](https://img.shields.io/badge/license-MIT-green)
+
