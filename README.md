@@ -63,7 +63,7 @@ lib/
 ## ⚙️ Instalasi & Jalankan Proyek
 1. Clone repositori:
    ```bash
-   git clone https://github.com/<username>/tukang_app.git
+   git clone https://github.com/NauvalFaiz/Tukang.com.git
 
 ---
 
@@ -74,4 +74,5 @@ lib/
   ```markdown
   ![Flutter](https://img.shields.io/badge/Flutter-3.24-blue)
   ![License](https://img.shields.io/badge/license-MIT-green)
+
 
